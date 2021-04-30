@@ -2,3 +2,15 @@
     text-decoration: underline;
     color: aqua;
 }
+
+.topbuttons {
+    padding: 10px 50px 10px 10px;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    justify-content: left;
+    
+}
