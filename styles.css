@@ -1,16 +1,30 @@
-.topbuttons:hover {
-    text-decoration: underline;
-    color: aqua;
+.About{background:LightSkyBlue;}
+.Store{background:LightSalmon;}
+.Gmail{background:PaleTurquoise;}
+.Images{background:LightPink;}
+
+.Google {
+  background: PaleGreen;
+  grid-area: content;
+  justify-self: center;
 }
 
-.topbuttons {
-    padding: 10px 50px 10px 10px;
+.container {
+  font-size: 40px;
+  min-height: 300px;
+  width: 100%;
+  background: LightGray;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  grid-template-areas:
+    "header header header header"
+    "content content content content"
+    "footer footer footer footer";
 }
 
-.top {
-    display: flex;
-    flex-direction: row;
-    height: auto;
-    justify-content: left;
-    
+.topleft {
+    justify-self: center;
+    background: cornsilk;
 }
