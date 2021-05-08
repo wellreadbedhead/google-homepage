@@ -3,28 +3,78 @@
 .Gmail{background:PaleTurquoise;}
 .Images{background:LightPink;}
 
+.item {
+    margin: 2%;
+}
+
 .Google {
   background: PaleGreen;
-  grid-area: content;
-  justify-self: center;
+  display: flex;
+  justify-content: center;
 }
 
 .container {
-  font-size: 40px;
-  min-height: 300px;
-  width: 100%;
-  background: LightGray;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-gap: 10px;
-  grid-template-areas:
-    "header header header header"
-    "content content content content"
-    "footer footer footer footer";
+    height: 100vh;
+    background: cadetblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.toprow {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    /* min-height: 100px; */
+    /* width: 100%; */
+    background: LightGray;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .topleft {
-    justify-self: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background: cornsilk;
+    padding: 10px;
+}
+
+.topright {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background: cornsilk;
+}
+
+.buttons {
+    background: PaleGreen;
+    display: flex;
+    justify-content: center;
+}
+
+.bottomrow {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    min-height: 100px;
+    background: rgb(199, 188, 188);
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.bottomleft {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background: cornsilk;
+}
+
+.bottomright {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
     background: cornsilk;
 }
