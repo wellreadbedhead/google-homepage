@@ -1,21 +1,34 @@
-.About{background:LightSkyBlue;}
-.Store{background:LightSalmon;}
-.Gmail{background:PaleTurquoise;}
-.Images{background:LightPink;}
-
 .item {
-    margin: 2%;
+    margin: 5px 10px 2px 5px;
+    padding: 2px 2px 5px 2px;
+    cursor: pointer;
+}
+
+.item:hover {
+    text-decoration: underline;
+}
+
+button {
+    cursor: pointer;
 }
 
 .Google {
-  background: PaleGreen;
+  font-size: 100px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   display: flex;
   justify-content: center;
+  cursor: pointer;
 }
+
+.searchbar {
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: center;
+  }
 
 .container {
     height: 100vh;
-    background: cadetblue;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -24,10 +37,7 @@
 .toprow {
     display: flex;
     flex-direction: row;
-    font-size: 20px;
-    /* min-height: 100px; */
-    /* width: 100%; */
-    background: LightGray;
+    font-size: 14px;
     justify-content: space-between;
     align-items: center;
 }
@@ -36,7 +46,6 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    background: cornsilk;
     padding: 10px;
 }
 
@@ -44,37 +53,26 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    background: cornsilk;
-}
-
-.buttons {
-    background: PaleGreen;
-    display: flex;
-    justify-content: center;
 }
 
 .bottomrow {
     display: flex;
     flex-direction: row;
-    font-size: 20px;
-    min-height: 100px;
-    background: rgb(199, 188, 188);
+    font-size: 14px;
+    min-height: 50px;
+    background: lightgrey;
     justify-content: space-between;
     align-items: center;
-
-
 }
 
 .bottomleft {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    background: cornsilk;
 }
 
 .bottomright {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    background: cornsilk;
 }
