@@ -1,15 +1,30 @@
-.item {
-    margin: 5px 10px 2px 5px;
-    padding: 2px 2px 5px 2px;
-    cursor: pointer;
-}
-
-.item:hover {
-    text-decoration: underline;
-}
-
 button {
     cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+li a:hover {
+    background-color: #111;
 }
 
 .Google {
@@ -34,14 +49,6 @@ button {
     justify-content: space-between;
 }
 
-.toprow {
-    display: flex;
-    flex-direction: row;
-    font-size: 14px;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .topleft {
     display: flex;
     flex-direction: row;
@@ -53,16 +60,6 @@ button {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-}
-
-.bottomrow {
-    display: flex;
-    flex-direction: row;
-    font-size: 14px;
-    min-height: 50px;
-    background: lightgrey;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .bottomleft {
